@@ -8,13 +8,12 @@ public class ArrayList_Demo {
 		al.add(40);
 		al.add(90);
 		al.add(30);
-		al.add("aram");	
+		al.add("aam");	
 		
-		ArrayList al1 = new ArrayList();
-		al1.add(2);
-		al1.add(5);
-		al1.addAll(al);
-		System.out.println(al1);
+		Iterator i=al.iterator();
+		while(i.hasNext()) {
+			System.out.println(i.next());
+		}
 	}
 
 }
